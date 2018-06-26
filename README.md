@@ -1,4 +1,5 @@
-# ExampleRestFull
+# ExampleRestFull - RESTFULL - JAX-RS 
+
 Ejercicio básico de RestFull con JAX-RS
 url: 
   - http://chuwiki.chuidiang.org/index.php?title=Ejemplo_de_servicios_REST_con_JSON_y_contenedor_JEE
