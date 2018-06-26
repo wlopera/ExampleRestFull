@@ -26,3 +26,4 @@ TODO: Los servicios rest debe retornar Json con @Produces({MediaType.APPLICATION
 Links: para CRUD java
 http://www.chuidiang.org/java/mysql/BasicDataSource-Pool-Conexiones.php
 https://www.ecodeup.com/crud-java-manual-completo/
+http://www.javamexico.org/blogs/marco_antonio_trejo_lemus/conexion_sql_por_jdbc
