@@ -20,3 +20,9 @@ El protocolo http define varios métodos para las peticiones http. En los web se
 
 La clase Application
 Una vez que tenemos nuestras clases de servicio web adecuadamente anotadas, debemos darlas de alta de alguna forma para que el contenedor web las localice y las publique como servicios web. Hay varias opciones, como indicarlas en el fichero web.xml, pero aquí vamos a optar por otra opción. Basta crear una clase que herede de Application y sobreescribir el método getClasses(). El siguiente código puede ser un ejemplo
+
+TODO: Los servicios rest debe retornar Json con @Produces({MediaType.APPLICATION_JSON}) eliminar uso de gson para conversion, no es necesario 
+
+Links: para CRUD java
+http://www.chuidiang.org/java/mysql/BasicDataSource-Pool-Conexiones.php
+https://www.ecodeup.com/crud-java-manual-completo/
