@@ -40,7 +40,8 @@ public class RestfulService {
 	@GET()
 	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/grow/")
-	public String getProductosCultivados() {
+	public  List<Product> getProductosCultivados() {
+		
 		System.out.println("##=> Conectado /service/cultivar/");
 		
 		List<Product> result = new LinkedList<Product>();
@@ -51,11 +52,11 @@ public class RestfulService {
 		result.add(new Product(5, "Ajo", 25.0));
 		
 		System.out.println(result.toString());
-		return new JSONObject().put("productos", result).toString();
+		// return new JSONObject().put("productos", result).toString();
+		return result;
 	}
 
 	@GET()
-	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/import/")
 	public String getProductosImportados() {
 		System.out.println("##=> Conectado /service/importar/");

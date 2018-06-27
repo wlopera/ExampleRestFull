@@ -14,8 +14,8 @@ angular.module("MyApp", [])
     	  .then(function onSuccess(response) {     // Respuesta OK
     		$scope.mostrar = true;
     		$scope.acionProducto = "Cultivadas";
-    	    $scope.productos=response.data.productos;
-    	    console.log("##=> Productos cultivados: ", $scope.producto);
+    	    $scope.productos=response.data.product;
+    	    console.log("##=> Productos cultivados: ", $scope.productos);
     	  }).catch(function onError(response) {   // Respuesta Error
     		$scope.mostrar = false;
     	    console.log("##=> Error: ", response);
@@ -29,7 +29,7 @@ angular.module("MyApp", [])
       		$scope.mostrar = true;
       		$scope.acionProducto = "Importadas";
       	    $scope.productos=response.data.productos;
-      	    console.log("##=> Productos importados: ", $scope.producto);
+      	    console.log("##=> Productos importados: ", $scope.productos);
       	  }).catch(function onError(response) { // Respuesta Error
       		$scope.mostrar = false;
       	    console.log("##=> Error: ", response);
