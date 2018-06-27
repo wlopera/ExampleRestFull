@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement  // anotacion para convertirlo en XML -> Json
+@XmlRootElement  // anotacion para conversion XML
 public class Product implements Serializable{
 	
 	private static final long serialVersionUID = -1883437301416426674L;

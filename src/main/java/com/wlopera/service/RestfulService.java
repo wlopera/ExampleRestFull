@@ -52,7 +52,6 @@ public class RestfulService {
 		result.add(new Product(5, "Ajo", 25.0));
 		
 		System.out.println(result.toString());
-		// return new JSONObject().put("productos", result).toString();
 		return result;
 	}
 
